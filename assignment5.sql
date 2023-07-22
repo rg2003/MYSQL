@@ -20,7 +20,7 @@ create table movie_genres(movie_id varchar(10),genre_id varchar(10),foreign key(
 desc movie_genres;
 
 
-/*Insrrting values into directors table*/
+/*Inserting values into directors table*/
 insert into directors values("D1","Karthik "),("D2","Rajamouli"),("D3","Shankar"),("D4","Anil ravipudi");
 select * from directors;
 
